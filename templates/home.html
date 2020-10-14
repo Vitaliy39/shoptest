@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form class="form-inline" method="POST" action = "{{ url_for('home') }}">
+ <label for="page">Choose a page:</label>
+
+<select name="page" id="pages">
+  <option value="user">User</option>
+  <option value="shop">Shop</option>
+
+</select>
+</form>
+</body>
+</html>
